@@ -2,7 +2,7 @@ name: Static Website Hosting to s3 bucket
 on: [push]
 
 jobs:
-  DeployWebsite:
+  Deploy-to-s3:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository Code
